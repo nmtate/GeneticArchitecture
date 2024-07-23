@@ -1,1 +1,1 @@
-# Estimation of Gene Architecture
+# Estimation of Genetic Architecture
