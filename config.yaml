@@ -1,0 +1,57 @@
+# path to the directory that contains the slurm files, snakemake files, and input files
+directory : "/home/mccuem/nmtate/GeneticArchitecture"
+
+# input dog or horse
+species : "horse"
+
+# input your username or name you would like associated with your directory
+user : "nmtate"
+
+#Input the name of the vcf you would like phased, without the ".vcf" or ".vcf.gz"
+filename : "STDB_2M_Final"
+
+# list of traits 
+traits:
+  - fmt
+  - fmt_win
+  - amt
+  - amt_win
+  - flq
+  - flq_win
+  - alq
+  - alq_win
+  - mt_cv
+  - lq_cv
+  - yrs_raced
+  - months_raced
+  - days_raced
+  - first_start_age
+  - fmt_age
+  - flq_age
+  - lft_starts
+  - lft_wins
+  - lft_places
+  - lft_shows
+  - lft_top3
+  - lft_top5
+  - lft_dnf
+  - lft_scr
+  - lft_not_finish
+  - perc_wins
+  - perc_places
+  - perc_shows
+  - perc_top3
+  - perc_top5
+  - perc_dnf
+  - perc_scr
+  - perc_not_finish
+  - perc_finish
+  - lft_earn
+  - earn_wins
+  - earn_places
+  - earn_shows
+  - earn_top3
+  - earn_top5
+  - avg_earn_start
+  - avg_earn_year
+
