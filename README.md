@@ -1,5 +1,1 @@
-# Estimation of Heritability and Genetic Architecture
-
-# Heritability
-
-# Gene Architecture
+# Estimation of Gene Architecture
